@@ -1,0 +1,42 @@
+body{
+    background-image: url(file:///Users/katydonoghue/Desktop/nineties-website/background.jpg);
+    background-size: 100%;
+    text-align: center;
+    
+}
+
+.header{
+    background-color: aqua;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Ranchers', cursive;
+    }
+
+    .menu{
+        font-size: 16px;
+    }
+
+    img { 
+        border:1px solid #021a40;
+     }
+
+ .text{
+    background-color: rgba(255,255,255,0.75);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+
+ }
+
+ .listphotos img {
+     height: 250px;
+    
+ }
+ 
