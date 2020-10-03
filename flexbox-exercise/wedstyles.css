@@ -1,0 +1,54 @@
+/* By default Flexbox have flex-direction: row */
+
+/* When FlexBox is row then justify content moves items left/right
+ When FlexBox is column then justify content moves items up/down 
+
+ When FlexBox is row align-items moves up/down 
+ When FlexBox is column align-items movies left-right
+
+*/
+
+
+#container {
+    display: flex; 
+    background-color: yellow; 
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boxcontainer {
+    display: flex;
+
+}
+
+.bluebox{
+    width: 400px; 
+    height: 100px; 
+    background-color: blue;
+    margin: 10px; 
+}
+
+.box {
+    width: 100px; 
+    height: 100px; 
+    background-color: pink;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column; 
+    color: white; 
+   
+}
+
+.item{
+    width: 80px;
+    height: 20px;
+    background-color: orange;
+    
+
+}
+
+.featured {
+    align-self: flex-start; 
+}
