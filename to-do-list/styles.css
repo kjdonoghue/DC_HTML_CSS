@@ -1,0 +1,9 @@
+
+body{
+    background-color: blue;
+}
+
+li:nth-child(2) {
+    font: 18px;
+    background-color: orange;
+}
